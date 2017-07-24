@@ -11,7 +11,6 @@ A Chingu Voyage Build-to-Learn team project of coding a website from a mock up.
 @serhiicss
 
 # Plan of action:
-<br>
 1. Create repository on GitHub
 <br>
 2. Chose a mockup
