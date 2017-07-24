@@ -22,3 +22,7 @@ A Chingu Voyage Build-to-Learn team project of coding a website from a mock up.
 
 ### Mockup selections:
 1) https://dribbble.com/shots/3534499-Board-Landing-Page
+<br>
+2) https://www.behance.net/gallery/53795955/Cook-Landing-Page-Project-Free-PSD
+<br>
+3) https://www.behance.net/gallery/47082207/Practice-03
