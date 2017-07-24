@@ -20,10 +20,9 @@ A Chingu Voyage Build-to-Learn team project of coding a website from a mock up.
 <br>
 3. Start coding
 
-### Mockup selections:
+### Guidelines:
+1) Please use only pure HTML/CSS (no Bootsrap or any other frameworks).
 <br>
-1) https://dribbble.com/shots/3534499-Board-Landing-Page
+2) Please try an document your work so it could be understood by all of team members (you can leave comments in code, write a separate article or even record a video :) )
 <br>
-2) https://www.behance.net/gallery/53795955/Cook-Landing-Page-Project-Free-PSD
-<br>
-3) https://www.behance.net/gallery/47082207/Practice-03
+3)
