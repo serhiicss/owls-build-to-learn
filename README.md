@@ -18,7 +18,7 @@ A Chingu Voyage Build-to-Learn team project of coding a website from a mockup.
 <br>
 2. Chose a mockup (https://cssauthor.com/resources/flat-mate-free-single-page-website-design-template-psd/)
 <br>
-3. Add contributors to the repo
+3. Add contributors to the repo (to be added send me a DM in Slack to @serhiicss)
 <br>
 3. Start coding
 
