@@ -16,11 +16,11 @@ Trello: https://trello.com/b/taJH26Ss/owls-build-to-learn
 
 # Plan of action:
 <br>
-~~1. Create repository on GitHub~~
+1. Create repository on GitHub
 <br>
-~~2. Chose a mockup (https://cssauthor.com/resources/flat-mate-free-single-page-website-design-template-psd/)~~
+2. Chose a mockup (https://cssauthor.com/resources/flat-mate-free-single-page-website-design-template-psd/)
 <br>
-~~3. Add contributors to the repo (to be added send your Github username in Slack to @serhiicss)~~
+3. Add contributors to the repo (to be added send your Github username in Slack to @serhiicss)
 <br>
 3. Start coding
 
@@ -32,12 +32,4 @@ Trello: https://trello.com/b/taJH26Ss/owls-build-to-learn
 <br>
 3) We are not going to use an actual slider or a video for this page, just a placeholder.
 <br>
-4) Please comment end tags: 
-```
-<div class="foobar">lorem ipsum</div> <!-- foobar -->
-```
-
-# Coding
-### Mockup description:
-~~test~~
-~~1. test~~
+4) Please comment end tags: `<div class="foobar">lorem ipsum</div> <!-- foobar -->`
