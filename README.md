@@ -16,12 +16,9 @@ Trello: https://trello.com/b/taJH26Ss/owls-build-to-learn
 
 # Plan of action:
 1. Create repository on GitHub
-<br>
 2. Chose a mockup (https://cssauthor.com/resources/flat-mate-free-single-page-website-design-template-psd/)
-<br>
 3. Add contributors to the repo (to be added send your Github username in Slack to @serhiicss)
-<br>
-3. Start coding
+4. Start coding
 
 ### Guidelines:
 1) Please use only pure HTML/CSS (no Bootsrap or any other frameworks).
