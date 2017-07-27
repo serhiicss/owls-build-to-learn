@@ -16,7 +16,7 @@ Trello: https://trello.com/b/taJH26Ss/owls-build-to-learn
 
 # Plan of action:
 <br>
-1. ~~Create repository on GitHub~~
+~~1. Create repository on GitHub~~
 <br>
 ~~2. Chose a mockup (https://cssauthor.com/resources/flat-mate-free-single-page-website-design-template-psd/)~~
 <br>
