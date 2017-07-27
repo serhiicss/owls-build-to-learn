@@ -15,7 +15,6 @@ Trello: https://trello.com/b/taJH26Ss/owls-build-to-learn
 @serhiicss
 
 # Plan of action:
-<br>
 1. Create repository on GitHub
 <br>
 2. Chose a mockup (https://cssauthor.com/resources/flat-mate-free-single-page-website-design-template-psd/)
@@ -25,9 +24,10 @@ Trello: https://trello.com/b/taJH26Ss/owls-build-to-learn
 3. Start coding
 
 ### Guidelines:
-<br>
 1) Please use only pure HTML/CSS (no Bootsrap or any other frameworks).
 <br>
-2) Please try an document your work so it could be understood by all of team members (you can leave comments in code, write a separate article or even record a video :) ).
+2) Please try and document your work so it could be understood by all of team members (you can leave comments in code, write a separate article or even record a video :) ).
 <br>
 3) We are not going to use an actual slider or a video for this page, just a placeholder
+4) Please comment end tags:
+`<div class="foobar">lorem ipsum</div> <!-- foobar -->`
