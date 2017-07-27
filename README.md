@@ -30,6 +30,4 @@ Trello: https://trello.com/b/taJH26Ss/owls-build-to-learn
 <br>
 2) Please try an document your work so it could be understood by all of team members (you can leave comments in code, write a separate article or even record a video :) ).
 <br>
-3) We are not going to use an actual slider or a video for this page, just a placeholder.
-<br>
-```<Br>```
+3) We are not going to use an actual slider or a video for this page, just a placeholder
