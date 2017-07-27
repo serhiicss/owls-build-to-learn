@@ -32,4 +32,4 @@ Trello: https://trello.com/b/taJH26Ss/owls-build-to-learn
 <br>
 3) We are not going to use an actual slider or a video for this page, just a placeholder.
 <br>
-`<Br>`
+```<Br>```
