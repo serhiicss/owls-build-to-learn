@@ -31,22 +31,3 @@ Trello: https://trello.com/b/taJH26Ss/owls-build-to-learn
 2) Please try an document your work so it could be understood by all of team members (you can leave comments in code, write a separate article or even record a video :) ).
 <br>
 3) We are not going to use an actual slider or a video for this page, just a placeholder
-
-Fonts used: Roboto, Roboto Slab
-
-The mock up consists of 3 main parts:
-	• Header
-	• Content body 
-	• Footer
-
-The header has a top  section with logo and an account access button
-
-The content body is split into 4 sections:
-	1. Product description
-	2. Slider
-	3. Rates
-	4. Video
-
-The footer has a contact form and a sub-footer.
-
-The first thing to do is declare global rules. This means we assign CSS styles to the elements that maybe reused in the code. For example: font-family an font size of the text, colors, margins and paddings.
