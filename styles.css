@@ -1,0 +1,52 @@
+/*----------------------
+Global styles
+----------------------*/
+
+html {
+	box-sizing: border-box;
+}
+
+/* All the text on the web page will be Roboto. sans-serif is a fallback in case user has no Roboto font installed on their device*/
+body {
+	font-family: Roboto, sans-serif;
+}
+
+/* Only headings will have Roboto Slab font. For font names with 2 words or more, we use " ". */
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto Slab", sans-serif;
+}
+
+/*Responsive images*/
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*Here we center our page and control its width*/
+.page-wrapper {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+/*Because most sections have same content width, we create a class that we add to sections insead of declaring width for each individually*/
+.container {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+
+/*----------------------
+Header
+----------------------*/
+
+header {
+	background-color: #455469;
+	background: linear-gradient(rgba(69, 84, 105, 0.95), rgba(69, 84, 105, 0.95)), url(../img/header-bg.jpg);
+	background-size: cover;
+	min-height: 700px; /*remove after content is added*/
+}
+
+.header-top {
+	display: flex;
+	justify-content: space-around;
+}
