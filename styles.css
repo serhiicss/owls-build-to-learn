@@ -41,7 +41,7 @@ HEADER
 
 header {
 	background-color: #455469;
-	background: linear-gradient(rgba(69, 84, 105, 0.95), rgba(69, 84, 105, 0.95)), url(../img/header-bg.jpg);
+	    background: linear-gradient(rgba(69, 84, 105, 0.95), rgba(69, 84, 105, 0.95)), url(./img/header-bg.jpg);
 	background-size: cover;
 	min-height: 700px; /*remove after content is added*/
 }
@@ -49,4 +49,8 @@ header {
 .header-top {
 	display: flex;
 	justify-content: space-around;
+}
+
+.logo-title {
+	    max-width: 30%;
 }
