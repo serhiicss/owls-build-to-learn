@@ -6,14 +6,17 @@ html {
 	box-sizing: border-box;
 }
 
-/* All the text on the web page will be Roboto. sans-serif is a fallback in case user has no Roboto font installed on their device*/
+/* All the text on the web page will be Roboto. sans-serif is a fallback in case user has no Roboto font installed on their device.*/
 body {
 	font-family: Roboto, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 /* Only headings will have Roboto Slab font. For font names with 2 words or more, we use " ". */
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Roboto Slab", sans-serif;
+	color: #fff;
 }
 
 /*Responsive images*/
@@ -43,8 +46,9 @@ header {
 	background-color: #455469;
 	background: linear-gradient(rgba(69, 84, 105, 0.95), rgba(69, 84, 105, 0.95)), url(../img/header-bg.jpg);
 	background-size: cover;
-	min-height: 700px; /*remove after content is added*/
-	margin: -10px;
+	padding-top: 40px;
+	padding-bottom: 240px;
+	color: #c9ced7;
 }
 
 .header-top {
@@ -53,7 +57,71 @@ header {
 }
 
 .logo-title {
-	font-size: 82px;
-	color: white;
-	    max-width: 30%;
+	max-width: 30%;
+}
+
+.login {
+	display: flex;
+	line-height: 30px;
+}
+
+.login-text {
+	margin-right: 15px;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.login-button {
+	text-transform: uppercase;
+	color: #c9ced7;
+	background-color: #3d4b60;
+	border: 0;
+	border-radius: 5px;
+	padding: 8px 16px;
+	cursor: pointer;
+	outline: none;
+}
+
+.login-button:hover {
+	background-color: #061d3f;
+}
+
+.header-main {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 120px;
+}
+
+.header-content {
+	max-width: 60%;
+}
+
+.header-content h1 {
+	font-size: 44px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.header-content p {
+	font-size: 26px;
+}
+
+.cta-button {
+	margin-top: 30px;
+	font-size: 32px;
+	color: #c9ced7;
+	background-color: #67bf95;
+	border: 0;
+	border-radius: 10px;
+	padding: 16px 40px;
+	cursor: pointer;
+	outline: none;
+}
+
+.cta-button:hover {
+	background-color: #57b287;
+}
+
+.header-img {
+	max-width: 30%;
 }
