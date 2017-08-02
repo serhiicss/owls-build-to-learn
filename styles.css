@@ -9,6 +9,7 @@ html {
 /* All the text on the web page will be Roboto. sans-serif is a fallback in case user has no Roboto font installed on their device.*/
 body {
 	font-family: Roboto, sans-serif;
+	color: #4b596c;
 	margin: 0;
 	padding: 0;
 }
@@ -17,6 +18,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Roboto Slab", sans-serif;
 	color: #fff;
+	font-weight: 400;
 }
 
 /*Responsive images*/
@@ -44,7 +46,7 @@ HEADER
 
 header {
 	background-color: #455469;
-	background: linear-gradient(rgba(69, 84, 105, 0.95), rgba(69, 84, 105, 0.95)), url(../img/header-bg.jpg);
+	background: linear-gradient(rgba(69, 84, 105, 0.95), rgba(69, 84, 105, 0.95)), url(img/header-bg.jpg);
 	background-size: cover;
 	padding-top: 40px;
 	padding-bottom: 240px;
@@ -98,7 +100,6 @@ header {
 
 .header-content h1 {
 	font-size: 44px;
-	font-weight: 400;
 	margin: 0;
 }
 
@@ -125,3 +126,55 @@ header {
 .header-img {
 	max-width: 30%;
 }
+
+
+/*----------------------
+PRODUCT SECTION
+----------------------*/
+.product-desciption {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.product-img {
+	max-width: 20%;
+}
+
+.product-text {
+	max-width: 50%;
+}
+.product-text h2 {
+	color: #4b596c;
+	font-size: 24px;
+}
+
+.product-text p {
+	line-height: 36px;
+}
+
+.product-social-icons {
+	max-width: 20%;
+}
+
+.product-social-icons a {
+	color: #52ad81;
+	font-size: 24px;
+	display: block;
+	width: 52px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+	margin: 48px 0;
+	border-radius: 10em;
+	border: 1px solid #52ad81;
+}
+
+.product-social-icons a:first-child {
+	margin-top: 28px;
+}
+
+.product-social-icons a:hover {
+	color: #fff;
+	background-color: #52ad81
