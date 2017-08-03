@@ -178,3 +178,76 @@ PRODUCT SECTION
 .product-social-icons a:hover {
 	color: #fff;
 	background-color: #52ad81
+}
+
+/*----------------------
+SLIDER
+----------------------*/
+
+.slider {
+	background-color: #52ad81;
+	padding-top: 80px;
+	color: #fff;
+}
+
+.slider-header {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.slider h2 {
+	font-family: Roboto, sans-serif;
+	font-size: 48px;
+	font-weight: 600;
+	margin: 0;
+	display: inline-block;
+}
+
+.slider p {
+	font-weight: 100;
+	font-size: 28px;
+	margin: 16px 0 80px ;
+}
+
+.slider-image {
+	position: relative;
+}
+
+.slider-image img {
+	margin-bottom: -3px;
+}
+
+.slider-control {
+	position: absolute;
+	top: -13px;
+	color: #fff;
+	font-size: 24px;
+	display: block;
+	width: 52px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+	margin: 48px 0;
+	border-radius: 10em;
+	border: 1px solid #fff;
+}
+
+.slider-control:hover {
+	background-color: #5dba8d;
+}
+
+.slider-control-l {
+	left: -88px;
+}
+
+.slider-control-r {
+	right: -88px;
+}
+
+.fa-chevron-left {
+	margin-right: 3px;
+}
+
+.fa-chevron-right {
+	margin-left: 3px;
+}
