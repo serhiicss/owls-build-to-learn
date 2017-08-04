@@ -251,3 +251,41 @@ SLIDER
 .fa-chevron-right {
 	margin-left: 3px;
 }
+
+/*----------------------
+SPACER
+----------------------*/
+.spacer {
+	background-color:#EAEAED;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -1px;
+}
+.spacer h2 {
+	color: #4b596c;
+	font-family: Roboto, sans-serif;
+}
+
+/*----------------------
+PRODUCT PRICING
+----------------------*/
+ .pricing {
+	background-color: #F6F6F8;
+	height: 500px;
+	
+
+ }
+/*----------------------
+PRODUCT VIDEO
+----------------------*/
+.product-video {
+	display: flex; 
+	justify-content: center;
+}
+
+.product-video img {
+	width: 100%;
+	
+}
