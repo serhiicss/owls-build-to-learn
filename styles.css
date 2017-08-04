@@ -180,6 +180,7 @@ PRODUCT SECTION
 	background-color: #52ad81
 }
 
+
 /*----------------------
 SLIDER
 ----------------------*/
@@ -252,9 +253,20 @@ SLIDER
 	margin-left: 3px;
 }
 
+
+/*----------------------
+PRODUCT PRICING
+----------------------*/
+ .pricing {
+	background-color: #F6F6F8;
+	height: 500px;
+ }
+
+
 /*----------------------
 SPACER
 ----------------------*/
+
 .spacer {
 	background-color:#EAEAED;
 	height: 100px;
@@ -268,24 +280,11 @@ SPACER
 	font-family: Roboto, sans-serif;
 }
 
-/*----------------------
-PRODUCT PRICING
-----------------------*/
- .pricing {
-	background-color: #F6F6F8;
-	height: 500px;
-	
 
- }
 /*----------------------
 PRODUCT VIDEO
 ----------------------*/
 .product-video {
 	display: flex; 
 	justify-content: center;
-}
-
-.product-video img {
-	width: 100%;
-	
 }
