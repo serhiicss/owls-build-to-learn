@@ -184,6 +184,7 @@ PRODUCT SECTION
 	background-color: #52ad81
 }
 
+
 /*----------------------
 SLIDER
 ----------------------*/
@@ -255,6 +256,7 @@ SLIDER
 .fa-chevron-right {
 	margin-left: 3px;
 }
+
 
 /*----------------------
 SPACER
@@ -408,3 +410,4 @@ footer {
 	width: 100%;
 	background-color: #2a2d33;
 }
+
