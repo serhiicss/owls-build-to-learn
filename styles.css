@@ -31,12 +31,14 @@ img {
 .page-wrapper {
 	margin: 0 auto;
 	max-width: 100%;
+	
 }
 
 /*Because most sections have same content width, we create a class that we add to sections insead of declaring width for each individually*/
 .container {
 	margin: 0 auto;
 	max-width: 1024px;
+	
 }
 
 
@@ -46,11 +48,12 @@ HEADER
 
 header {
 	background-color: #455469;
-	background: linear-gradient(rgba(69, 84, 105, 0.95), rgba(69, 84, 105, 0.95)), url(img/header-bg.jpg);
+	background: linear-gradient(rgba(69, 84, 105, 0.75), rgba(34, 34, 34, 0.75)), url(img/header-bg.jpg);
 	background-size: cover;
 	padding-top: 40px;
 	padding-bottom: 240px;
 	color: #c9ced7;
+
 }
 
 .header-top {
@@ -136,6 +139,7 @@ PRODUCT SECTION
 	padding-bottom: 80px;
 	display: flex;
 	justify-content: space-around;
+	background-color: white;
 }
 
 .product-img {
@@ -255,36 +259,155 @@ SLIDER
 
 
 /*----------------------
-PRODUCT PRICING
-----------------------*/
- .pricing {
-	background-color: #F6F6F8;
-	height: 500px;
- }
-
-
-/*----------------------
 SPACER
 ----------------------*/
-
 .spacer {
 	background-color:#EAEAED;
-	height: 100px;
+	height: 150px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: -1px;
-}
-.spacer h2 {
+	font-size: 50px;
 	color: #4b596c;
 	font-family: Roboto, sans-serif;
+	
 }
+
+/*----------------------
+PRODUCT PRICING
+----------------------*/
+ .pricing {
+	background-color: #F6F6F8;
+	height: 50px;
+
+ }
 
 
 /*----------------------
 PRODUCT VIDEO
 ----------------------*/
-.product-video {
-	display: flex; 
+.product-video{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1042px;
+  background: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+		url(img/wheel.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+
+.fa-play-circle-o{
+	font-size: 150px;
+	color: white;
+	opacity: 0.5;
+}
+
+.fa-play-circle-o:hover{
+color: white;
+opacity: 0.8;
+}
+
+.contact{
+	background-color: #2D3136;
+	color: white;
+	height: 1000px;
+	
+}
+
+
+/*----------------------
+CONTACT
+----------------------*/
+.contact {
+	display: flex;
 	justify-content: center;
 }
+.mail-icon {
+	height: 150px;
+	width: 150px;
+	margin-top: 5%;
+	border: 20px solid #383939;
+	border-radius: 50%;
+	
+}
+
+
+/*----------------------
+FOOTER
+----------------------*/
+.footer-icon{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #2A2D33;
+	height: 80px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.footer-logo{
+	/* height: 30px;
+	width: 40px; */
+}
+
+.footer-social-icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: #656566;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	border: 1px solid #656566;
+	/* margin: auto 10px; */
+}
+
+.footer-social-icon:hover{
+	background-color: gray;
+}
+
+.footer-icon-color{
+	color: #656566;
+}
+
+.flatmate-footer-logo {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	width: 60%;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer img{
+	height: 30px;
+	width: 40px;
+}
+
+.design-by{
+
+	color: #656566;
+}
+.footer-wrap {
+	width: 100%;
+	background-color: #2a2d33;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: #2a2d33;
+}
+
