@@ -279,9 +279,111 @@ PRODUCT PRICING
 ----------------------*/
  .pricing {
 	background-color: #F6F6F8;
-	height: 50px;
+	height: 800px;
+	text-align: center;
+	justify-content: center;
 
  }
+
+ .pricing-text h4 {
+	font-family: Roboto, sans-serif;
+	font-size: 30px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: -1px;
+	padding-top: 60px;
+    color: #4b596c;
+	font-family: Roboto, sans-serif;
+ }
+
+ .pricing-text p{
+	 color: #858b93;
+ }
+
+/* Pricing Cards  */
+div#wrapper {
+    height:540px;
+	width:260px;
+	position:relative;
+    float:left;
+	margin-right: 1px;
+	margin-left: 151px;
+	transition: 0.3s;
+	
+}
+
+div#purchase-text, div#plan-type, div#img {
+    position:absolute;
+	margin: 5px;
+	border-radius: 1px;
+}
+
+div#img {
+	top:70px;
+    height: 170px;
+	width:250px;
+}
+
+div#purchase-text, .sign-up-btn, .buy-btn, .buy-now-btn {
+    bottom:5px;
+    height:42px;
+	width:250px;
+	color: #fff;
+
+}
+
+/* free button  */
+.sign-up-btn{
+	padding: 0;
+	border: none;
+	background: none;
+	} 
+.sign-up-btn:hover{
+	background-color: #284660;
+}
+
+/* professional button  */
+.buy-btn{
+	padding: 0;
+	border: none;
+	background: none;
+	} 
+.buy-btn:hover{
+	background-color: #5dba8d;
+}
+
+/* enterprise button  */
+.buy-now-btn{
+	padding: 0;
+	border: none;
+	background: none;
+	} 
+.buy-now-btn:hover{
+	background-color: #00aecc;
+}
+
+
+.free {
+	background-color: #4b596c;
+}
+
+.profesh {
+	background-color: #58ad52;
+}
+
+.enterprise {
+	background-color: #52a1ad;
+}
+
+div#plan-type {
+    bottom: 455px;
+    height: 47px;
+	width:250px;
+	color: #fff;
+}
+
+
 
 
 /*----------------------
