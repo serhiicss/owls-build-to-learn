@@ -48,7 +48,7 @@ HEADER
 
 header {
 	background-color: #455469;
-	background: linear-gradient(rgba(69, 84, 105, 0.75), rgba(34, 34, 34, 0.75)), url(img/header-bg.jpg);
+	background: linear-gradient(rgba(78, 93, 113, 0.95), rgba(78, 93, 113, 0.95)), url(img/header-bg.jpg);
 	background-size: cover;
 	padding-top: 40px;
 	padding-bottom: 240px;
@@ -85,6 +85,7 @@ header {
 	padding: 8px 16px;
 	cursor: pointer;
 	outline: none;
+	transition: all ease 0.4s;	
 }
 
 .login-button:hover {
@@ -173,6 +174,7 @@ PRODUCT SECTION
 	margin: 48px 0;
 	border-radius: 10em;
 	border: 1px solid #52ad81;
+	transition: all ease 0.4s;
 }
 
 .product-social-icons a:first-child {
@@ -235,6 +237,7 @@ SLIDER
 	margin: 48px 0;
 	border-radius: 10em;
 	border: 1px solid #fff;
+	transition: all ease 0.4s;
 }
 
 .slider-control:hover {
@@ -389,6 +392,7 @@ div#plan-type {
 /*----------------------
 PRODUCT VIDEO
 ----------------------*/
+
 .product-video{
 	display: flex;
 	justify-content: center;
@@ -426,17 +430,102 @@ opacity: 0.8;
 /*----------------------
 CONTACT
 ----------------------*/
-.contact {
+
+.contact-form {
+	text-align: center;
+	background-color: #2d3136;
+	padding-top: 80px;
+	padding-bottom: 80px;	
+}
+
+.mail-icon {
+	max-width: 250px;
+}
+
+form {
 	display: flex;
 	justify-content: center;
+	padding-top: 80px;
 }
-.mail-icon {
-	height: 150px;
-	width: 150px;
-	margin-top: 5%;
-	border: 20px solid #383939;
-	border-radius: 50%;
-	
+
+.form-left {
+	margin-right: 120px;
+}
+
+.form-left > div {
+	margin-bottom: 48px;
+}
+
+.form-right,
+.form-user_name,
+.form-user_mail 
+{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-right label {
+	margin-bottom: 15px;
+}
+
+label {
+	color: #d7d7d7;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+label span {
+	color: #be393b;
+}
+
+input, textarea {
+	min-width: 300px;
+	font-family: Roboto, sans-serif;
+	font-size: 26px;
+	color: #d7d7d7;
+	background-color: #2d3136;
+	border: 1px solid #4c4f53;
+	border-radius: 5px;
+	outline: none;
+	transition: all ease 0.4s;
+}
+
+input {
+	padding: 16px 15px ;
+}
+
+textarea {
+	min-height: 220px;
+	min-width: 400px;
+}
+
+input:focus,
+textarea:focus {
+	border-color: #be393b; 
+}
+
+.form-button-wrapper {
+	text-align: right;
+}
+
+
+.form-button {
+	margin-top: 30px;
+	margin-right: 80px;
+	font-size: 32px;
+	color: #c9ced7;
+	background-color: #be393b;
+	border: 0;
+	border-radius: 10px;
+	padding: 16px 40px;
+	cursor: pointer;
+	outline: none;
+	transition: all ease 0.4s;
+}
+
+.form-button:hover {
+	background-color: #860000;
 }
 
 
@@ -469,6 +558,7 @@ FOOTER
 	height: 40px;
 	border-radius: 100%;
 	border: 1px solid #656566;
+	transition: all ease 0.4s;
 	/* margin: auto 10px; */
 }
 
