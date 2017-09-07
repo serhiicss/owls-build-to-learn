@@ -31,14 +31,14 @@ img {
 .page-wrapper {
 	margin: 0 auto;
 	max-width: 100%;
-	
+
 }
 
 /*Because most sections have same content width, we create a class that we add to sections insead of declaring width for each individually*/
 .container {
 	margin: 0 auto;
 	max-width: 1024px;
-	
+
 }
 
 
@@ -85,7 +85,7 @@ header {
 	padding: 8px 16px;
 	cursor: pointer;
 	outline: none;
-	transition: all ease 0.4s;	
+	transition: all ease 0.4s;
 }
 
 .login-button:hover {
@@ -274,7 +274,7 @@ SPACER
 	font-size: 50px;
 	color: #4b596c;
 	font-family: Roboto, sans-serif;
-	
+
 }
 
 /*----------------------
@@ -305,26 +305,26 @@ PRODUCT PRICING
  }
 
 /* Pricing Cards  */
+#wrap{
+	display: flex;
+	justify-content: space-around;
+}
+
 div#wrapper {
-    height:540px;
+  height:540px;
 	width:260px;
 	position:relative;
-    float:left;
-	margin-right: 1px;
-	margin-left: 151px;
-	transition: 0.3s;
-	
 }
 
 div#purchase-text, div#plan-type, div#img {
-    position:absolute;
+  position:absolute;
 	margin: 5px;
 	border-radius: 1px;
 }
 
 div#img {
 	top:70px;
-    height: 170px;
+  height: 170px;
 	width:250px;
 }
 
@@ -341,7 +341,7 @@ div#purchase-text, .sign-up-btn, .buy-btn, .buy-now-btn {
 	padding: 0;
 	border: none;
 	background: none;
-	} 
+	}
 .sign-up-btn:hover{
 	background-color: #284660;
 }
@@ -351,7 +351,7 @@ div#purchase-text, .sign-up-btn, .buy-btn, .buy-now-btn {
 	padding: 0;
 	border: none;
 	background: none;
-	} 
+	}
 .buy-btn:hover{
 	background-color: #5dba8d;
 }
@@ -361,7 +361,7 @@ div#purchase-text, .sign-up-btn, .buy-btn, .buy-now-btn {
 	padding: 0;
 	border: none;
 	background: none;
-	} 
+	}
 .buy-now-btn:hover{
 	background-color: #00aecc;
 }
@@ -398,9 +398,9 @@ PRODUCT VIDEO
 	justify-content: center;
 	align-items: center;
 	height: 1042px;
-  background: 
+  background:
     linear-gradient(
-      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45),
       rgba(255, 0, 0, 0.45)
     ),
 		url(img/wheel.png);
@@ -423,7 +423,7 @@ opacity: 0.8;
 	background-color: #2D3136;
 	color: white;
 	height: 1000px;
-	
+
 }
 
 
@@ -435,7 +435,7 @@ CONTACT
 	text-align: center;
 	background-color: #2d3136;
 	padding-top: 80px;
-	padding-bottom: 80px;	
+	padding-bottom: 80px;
 }
 
 .mail-icon {
@@ -458,7 +458,7 @@ form {
 
 .form-right,
 .form-user_name,
-.form-user_mail 
+.form-user_mail
 {
 	display: flex;
 	flex-direction: column;
@@ -502,7 +502,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-	border-color: #be393b; 
+	border-color: #be393b;
 }
 
 .form-button-wrapper {
@@ -542,16 +542,11 @@ FOOTER
 	margin: 0 auto;
 }
 
-.footer-logo{
-	/* height: 30px;
-	width: 40px; */
-}
-
-.footer-social-icon{
+.footer-social-icon a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+	margin-right: 24px;
 	color: #656566;
 	font-size: 24px;
 	width: 40px;
@@ -562,7 +557,7 @@ FOOTER
 	/* margin: auto 10px; */
 }
 
-.footer-social-icon:hover{
+.footer-social-icon a:hover{
 	background-color: gray;
 }
 
@@ -602,4 +597,3 @@ footer {
 	width: 100%;
 	background-color: #2a2d33;
 }
-
